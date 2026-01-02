@@ -230,8 +230,9 @@ export default function AdaptiveCoachingEngine() {
             <p className='mt-4 text-slate-600 text-lg leading-relaxed max-w-xl'>
               FitCal gives you instant fitness and nutrition guidance based on
               how you feel right now — your energy, mood, sleep, stress, and
-              cravings. No plans to follow, just smart suggestions when you need
-              them.
+              cravings. Instead of rigid plans or tracking everything, FitCal
+              adapts in real time to help you make better choices, stay
+              consistent, and move forward at your own pace.
             </p>
 
             <div className='mt-8 flex flex-col sm:flex-row gap-3 justify-center lg:justify-start'>
