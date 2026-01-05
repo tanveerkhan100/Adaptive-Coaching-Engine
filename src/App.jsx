@@ -303,7 +303,7 @@ export default function AdaptiveCoachingEngine() {
                     A win or challenge today (optional)
                   </label>
                   <input
-                    className='w-full rounded-xl border border-slate-300 bg-white px-3 py-2 text-sm outline-none focus:border-b-3 focus:border-b-[#5cff7f]'
+                    className='w-full rounded-lg border border-slate-300 bg-white px-3 py-[10px] text-sm outline-none focus:border-b-3 focus:border-b-[#5cff7f]'
                     placeholder='e.g. Hit my protein goal'
                     value={inputs.progress}
                     onChange={(e) => handleChange('progress', e.target.value)}
