@@ -80,7 +80,7 @@ function CustomSelect({ label, value, options, onChange }) {
         aria-expanded={open}
         onClick={() => setOpen((v) => !v)}
         onKeyDown={onButtonKeyDown}
-        className='w-full rounded-lg border border-slate-300 bg-white px-3 py-[10px] text-sm text-left flex items-center justify-between outline-none focus:border-b-3 focus:border-b-[#5cff7f] transition'
+        className='w-full rounded-lg border flash-border border-slate-300 bg-white px-3 py-[10px] text-sm text-left flex items-center justify-between outline-none focus:border-b-3 focus:border-b-[#5cff7f] transition'
       >
         <span className='capitalize text-slate-900'>{value}</span>
 
@@ -302,12 +302,12 @@ export default function AdaptiveCoachingEngine() {
                   <label className='block text-sm font-medium mb-1'>
                     A win or challenge today (optional)
                   </label>
-                  <input
-                    className='w-full rounded-lg border border-slate-300 bg-white px-3 py-[10px] text-sm outline-none focus:border-b-3 focus:border-b-[#5cff7f]'
-                    placeholder='e.g. Hit my protein goal'
-                    value={inputs.progress}
-                    onChange={(e) => handleChange('progress', e.target.value)}
-                  />
+                <input
+  className="input flash-border"
+  placeholder="e.g. Hit my protein goal"
+  value={inputs.progress}
+  onChange={(e) => handleChange('progress', e.target.value)}
+/>
                 </div>
 
                 <button
